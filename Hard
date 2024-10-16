@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c,avg=0;
+scanf("%d",&a);
+scanf("%d",&b);
+scanf("%d",&c);
+if(avg>=90)
+{
+printf("the grade is A");
+}
+else if((avg>=80)&&(avg<90))
+{
+printf("the grade is B");
+}
+else if((avg>=70)&&(avg<80))
+{
+printf("the grade is c");
+}
+elae if((avg>=60)&&(avg<70))
+{
+printf("the grade is D");
+}
+else if ((avg>=50)&&(avg<60))
+{
+printf("the grade is E");
+}
+else if((avg<50)
+{
+printf("the grade is F");
+}
+return 0;
+}
